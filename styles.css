@@ -32,15 +32,7 @@
   }
 
 #navbar a:hover{
-    color: rgb(0, 0, 161);
-    animation: pulsete 15s ease-in-out infinite;
-    transition: 0.5s;
-}
-
-@keyframes pulsete {
-    0%{
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.562);
-    }
+    color: #7a7a7a;
 }
 
 #navbar a.active{
@@ -301,6 +293,10 @@
     margin-bottom: 1.5em;
 }
 
+.footer-subtitulos {
+    color: rgb(209, 209, 209);
+}
+
 #news-container input {
     border-radius: 0;
     border: none;
@@ -322,6 +318,11 @@
 #footer-bottom {
     border-top: 1px solid #7a7a7a;
     padding-top: 2em;
+}
+
+#footer-bottom a{
+    text-decoration: none;
+    color: #48ecec;
 }
 
 @media(min-width: 768px) {
