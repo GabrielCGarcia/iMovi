@@ -320,9 +320,11 @@
     padding-top: 2em;
 }
 
-#footer-bottom a{
+#footer-bottom a {
     text-decoration: none;
     color: #48ecec;
+    display: flex;
+    justify-content: right;
 }
 
 @media(min-width: 768px) {
